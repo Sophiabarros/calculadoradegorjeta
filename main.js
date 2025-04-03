@@ -15,6 +15,14 @@ function reciveNumberOfPeopleValue(){
     calculate()
 }
 
+
+function reciveTipPercentageValue(value){
+    tipPercentage = value / 100
+
+    buttonSelected = document.querySelector("")
+
+}
+
 function reciveBillValue(){
     console.log(billInput.valueAsNumber)
     bill = billInput.valueAsNumber
@@ -23,11 +31,6 @@ function reciveBillValue(){
 
 }
 
-function reciveTipPercentageValue(value){
-    buttonSelected = document.querySelector("")
-    
-
-}
 
 function calculate(){
     if (bill !==0 && tipPercentage !==0 && numberOfPeople !==0){
